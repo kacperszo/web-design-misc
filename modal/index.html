@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closable modal</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="show-modal-button" class="show-modal-button" type="button">Show Modal</button>
+      <div class="modal" id="modal">
+        <button id="close-modal-button" type="button" class="modal__close-button"><i class="fas fa-times"></i></button>
+        <div id="modal__wrapper" class="modal__wrapper">
+          <div class="modal__header">
+            Modal Header
+          </div>
+          <div class="modal__body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet mi libero, sed facilisis
+              risus semper eu. Etiam ut placerat ligula. Mauris ut risus elit. Fusce vel gravida elit. Ut
+              mollis odio eu vehicula tempor. Nullam arcu nisl, gravida vel ante nec, ultrices fermentum
+              libero. Fusce a commodo mi. Sed nunc tortor, ullamcorper sed lorem quis, varius tincidunt magna.
+              Donec molestie, quam non congue interdum, ipsum felis dapibus eros, ut auctor tellus urna ac
+              eros. Sed in gravida diam. Pellentesque at ornare dolor. Donec id tortor vitae elit suscipit
+              ornare et tincidunt urna. </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+
+</html>
